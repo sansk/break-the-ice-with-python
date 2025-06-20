@@ -8,7 +8,7 @@ def normal_solution(start, end):
 normal_solution(2000, 3200)
 
 # Solution-2
-# Using lambda expression
+# Using List Comprehension and Unpacking List in print using *()
 def comprehension_solution(start, end):
     print(*(i for i in range(start, end + 1) if i % 7 == 0 and not i % 5 == 0), sep = ',')
 
